@@ -1,0 +1,20 @@
+[
+  {
+    "metric": "cpu.usage",
+    "timestamp": ${timestamp},
+    "value": ${__Random(0,100)},
+    "tags": {
+    "app": "${app}",
+    "server": "${server}"
+    }
+  },
+  {
+    "metric": "mem.used",
+    "timestamp": ${timestamp},
+    "value": ${__Random(0,1024)},
+    "tags": {
+    "app": "${app}",
+    "server": "${server}"
+    }
+  }
+]
