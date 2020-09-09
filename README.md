@@ -1,5 +1,6 @@
+For more information, please check out this artical from author blog: [JMeter实用案例讲解：生成Mockup/Dummy JSON压测REST API](https://laurence.blog.csdn.net/article/details/108338351)
 
-1. Run it
+1. How to Run it?
 
 ```bash
 nohup /your-jmeter-cli-path/jmeter.sh -n -t /your-jmeter-demo-project-path/demo-testplan.jmx -l result.jtl &
